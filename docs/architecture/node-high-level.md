@@ -47,7 +47,7 @@ The identity is created by generating public and private keys. The identity is i
 
 This identity can be made publicly known to other network users by announcing its existence through invoking an identity registration smart contract on the Ethereum blockchain.
 
-After the identity contract is successfully executed the public key of identity is appended to the Ethereum blockchain by miners. At this point, the appended identity becomes a Registered Identity.
+After the identity contract is successfully executed the identity public key is appended to the Ethereum blockchain by miners. At this point, the appended identity becomes a Registered Identity.
 
 Nodes can use the Registered Identities database to lookup public keys associated with other identities. This database is used by nodes to check if the communications received from other nodes are from a valid registered identity and are properly signed.
 
